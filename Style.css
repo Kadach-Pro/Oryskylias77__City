@@ -1,0 +1,62 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#eef4ff;
+color:#222;
+}
+
+header{
+background:#0b3d91;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+header h1{
+font-size:40px;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
+}
+
+.city{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:30px;
+}
+
+.shop{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.shop:hover{
+transform:translateY(-8px);
+}
+
+.shop img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.shop h2{
+padding:15px;
+text-align:center;
+color:#0b3d91;
+}
+
+a{
+text-decoration:none;
+}
